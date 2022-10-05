@@ -1,0 +1,10 @@
+{
+    "email":"Email",
+    "password":"Password",
+    "enter":"Enter",
+    "newAccount":"Create new account",
+    "day":"Good day",
+    "night":"Good night",
+    "evening":"Good evening",
+    "morning":"Good morning"
+}
