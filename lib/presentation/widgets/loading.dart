@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:line_icons/line_icons.dart';
 
 class LoadingImage extends StatelessWidget {
   final double? size;
@@ -16,7 +15,7 @@ class LoadingImage extends StatelessWidget {
       color: Colors.grey.shade800,
       child: icon ??
           Icon(
-            LineIcons.music,
+            Icons.mic,
             color: Colors.black,
             size: size,
           ),
