@@ -11,6 +11,7 @@ import 'package:musify_mobile/presentation/pages/delete_album/delete_album.dart'
 import 'package:musify_mobile/presentation/pages/delete_genre/delete_genre.dart';
 import 'package:musify_mobile/presentation/pages/home/home_page.dart';
 import 'package:musify_mobile/presentation/pages/login/login_page.dart';
+import 'package:musify_mobile/presentation/pages/onboarding/onboarding_page.dart';
 
 class CurrentSongRoute extends PageRouteInfo {
   CurrentSongRoute({
@@ -22,7 +23,8 @@ class CurrentSongRoute extends PageRouteInfo {
 @MaterialAutoRouter(
   replaceInRouteName: 'Page,Route',
   routes: <AutoRoute>[
-    AutoRoute(path: loginPath, page: LoginPage, initial: true),
+    AutoRoute(path: onboardingPage, page: OnboardingPage, initial: true),
+    AutoRoute(path: loginPath, page: LoginPage),
     AutoRoute(
       path: homePath,
       page: HomePage,

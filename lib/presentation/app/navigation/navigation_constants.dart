@@ -6,5 +6,5 @@ const String addAlbumPath = '/addAlbum';
 const String deleteAlbumPath = '/deleteAlbum';
 const String addTrackPath = '/addTrack';
 const String currentSongPath = '/currentSong';
-
+const String onboardingPage = '/onboardingPage';
 
