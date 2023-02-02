@@ -1,4 +1,3 @@
-import 'package:auto_route/annotations.dart';
 import 'package:auto_route/auto_route.dart';
 import 'package:musify_mobile/data/models/Track.dart';
 import 'package:musify_mobile/presentation/app/navigation/auth_guard.dart';
@@ -13,7 +12,7 @@ import 'package:musify_mobile/presentation/pages/home/home_page.dart';
 import 'package:musify_mobile/presentation/pages/login/login_page.dart';
 
 class CurrentSongRoute extends PageRouteInfo {
-  CurrentSongRoute({
+  const CurrentSongRoute({
     required Track track,
   }) : super(name, path: '/currentSong');
   static const String name = 'currentSong';
